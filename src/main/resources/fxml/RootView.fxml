@@ -82,45 +82,13 @@
             </TextField>
          </children>
       </HBox>
-      <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
-         <children>
-            <Label text="Servidor SMTP:" />
-         </children>
-      </HBox>
-      <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="1">
-         <children>
-            <Label text="Usar conexión SSL:" />
-         </children>
-      </HBox>
-      <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="2">
-         <children>
-            <Label text="Remitente(From):" />
-         </children>
-      </HBox>
-      <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="3">
-         <children>
-            <Label text="Destinatario(To):" />
-         </children>
-      </HBox>
-      <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="4">
-         <children>
-            <Label text="Asunto(Subject):" />
-         </children>
-      </HBox>
-      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="2">
-         <children>
-            <Button mnemonicParsing="false" text="Enviar" />
-         </children>
-      </HBox>
-      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
-         <children>
-            <Button mnemonicParsing="false" text="Vaciar" />
-         </children>
-      </HBox>
-      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
-         <children>
-            <Button mnemonicParsing="false" text="Cerrar" />
-         </children>
-      </HBox>
+      <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" text="Servidor SMTP:" GridPane.halignment="RIGHT" />
+      <Label alignment="CENTER_RIGHT" text="Usar conexión SSL:" GridPane.halignment="RIGHT" GridPane.rowIndex="1" />
+      <Label text="Asunto(Subject):" GridPane.halignment="RIGHT" GridPane.rowIndex="4" />
+      <Label text="Remitente(From):" GridPane.halignment="RIGHT" GridPane.rowIndex="2" />
+      <Label text="Destinatario(To):" GridPane.halignment="RIGHT" GridPane.rowIndex="3" />
+      <Button mnemonicParsing="false" text="Enviar" GridPane.columnIndex="2" />
+      <Button mnemonicParsing="false" text="Vaciar" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <Button mnemonicParsing="false" text="Cerrar" GridPane.columnIndex="2" GridPane.rowIndex="2" />
    </children>
 </GridPane>
